@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Cybersecurity Awareness — ICDL Edition</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <!-- Replace "yourkitid" with a real Kit ID or use the CDN link below if needed:
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Dots -->
+  <nav class="nav-dots" aria-hidden="false"></nav>
+
+  <main id="slides" class="slides">
+    <!-- Slide 1 - Hero -->
+    <section class="slide hero" data-title="Hero">
+      <div class="container">
+        <div class="hero-card animate">
+          <i class="fa-solid fa-shield-halved hero-icon" aria-hidden="true"></i>
+          <h1 class="neon-title">Cybersecurity Awareness — ICDL Edition</h1>
+          <p class="subtitle">الأمن السيبراني طريقة تفكير… مش تخصص.</p>
+          <div class="cta-row">
+            <button class="btn" id="startBtn">ابدأ التوعية</button>
+            <a class="ghost-link" href="#quiz">اختبار سريع</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 - مقدمة بسيطة -->
+    <section class="slide" data-title="مقدمة">
+      <div class="container animate">
+        <h2 class="section-title neon">مقدمة بسيطة</h2>
+        <div class="card-grid">
+          <div class="card">
+            <i class="fa-solid fa-envelope-open-text fa-2x"></i>
+            <h3>كل حياتك الرقمية مربوطة ببريدك</h3>
+            <p>شغل، سوشيال، حسابات — البريد هو المفتاح.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-percentage fa-2x"></i>
+            <h3>90% من الاختراقات</h3>
+            <p>سببها “سلوك المستخدم” — خطأ بسيط يكلف كتير.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-bolt fa-2x"></i>
+            <h3>الرسالة</h3>
+            <p class="accent">"الأمن السيبراني طريقة تفكير."</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 3 - أشهر المخاطر -->
+    <section class="slide" data-title="مخاطر">
+      <div class="container animate">
+        <h2 class="section-title neon">أشهر المخاطر في الأمن السيبراني (ICDL)</h2>
+        <div class="list-cards">
+          <div class="card">
+            <i class="fa-solid fa-virus-covid fa-2x"></i>
+            <h4>الفيروسات والمالوير</h4>
+            <p>ملفات مكركة / USB / مواقع تحميل غير موثوقة.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-person-booth fa-2x"></i>
+            <h4>التصيّد (Phishing)</h4>
+            <p>رسائل بنك مزيفة، Gmail مقلد، روابط وظائف وهمية.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-lock fa-2x"></i>
+            <h4>كلمات السر الضعيفة</h4>
+            <p>سهل التخمين أو إعادة الاستخدام عبر مواقع متعددة.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-user-secret fa-2x"></i>
+            <h4>الهندسة الاجتماعية</h4>
+            <p>استغلال العلاقات والثقة للحصول على معلومات.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-wifi fa-2x"></i>
+            <h4>مخاطر الواي فاي العام</h4>
+            <p>شبكات غير مشفرة تتجسس على بياناتك.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4 - إزاي تتصرف -->
+    <section class="slide" data-title="إزاي تتصرف">
+      <div class="container animate">
+        <h2 class="section-title neon">إزاي تتصرف مع كل خطر؟</h2>
+        <div class="card-grid">
+          <div class="card">
+            <i class="fa-solid fa-shield-virus fa-2x"></i>
+            <h4>Antivirus + Scan</h4>
+            <p>سطب برنامج موثوق وافحص دورياً.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-magnifying-glass-question fa-2x"></i>
+            <h4>3 أسئلة للكشف عن Phishing</h4>
+            <p>من المرسل؟ هل الطلب منطقي؟ هل الرابط اصلي؟</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-key fa-2x"></i>
+            <h4>Password Manager + 2FA</h4>
+            <p>مدير كلمات سر ومصادقة ثنائية = حماية قوية.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-stopwatch fa-2x"></i>
+            <h4>اللي بيستعجلك… بيستغلك</h4>
+            <p>ارفع شكوكك قبل ما تضغط.</p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-router fa-2x"></i>
+            <h4>تجنب Public WiFi</h4>
+            <p>لو اضطريت استخدم VPN أو بيانات الهاتف.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 5 - قواعد الأمان -->
+    <section class="slide" data-title="قواعد">
+      <div class="container animate">
+        <h2 class="section-title neon">قواعد الأمان الأساسية (ICDL)</h2>
+        <div class="list-cards">
+          <div class="card"><i class="fa-solid fa-sync fa-2x"></i>
+            <h4>تحديثات – Firewall – Antivirus</h4>
+          </div>
+          <div class="card"><i class="fa-solid fa-hdd fa-2x"></i>
+            <h4>Backup</h4>
+          </div>
+          <div class="card"><i class="fa-solid fa-envelope fa-2x"></i>
+            <h4>حماية البريد</h4>
+          </div>
+          <div class="card"><i class="fa-solid fa-user-shield fa-2x"></i>
+            <h4>حماية الحسابات</h4>
+          </div>
+          <div class="card"><i class="fa-solid fa-globe fa-2x"></i>
+            <h4>حماية المتصفح</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 6 - سيناريوهات واقعية (Interactive Quiz) -->
+    <section class="slide" id="quiz" data-title="سيناريو">
+      <div class="container animate">
+        <h2 class="section-title neon">سيناريوهات واقعية — Phishing Mini-Quiz</h2>
+
+        <div class="quiz-card">
+          <div class="quiz-question" data-q="1">
+            <p class="q-text"><strong>1.</strong> Recruiter بعت PDF مرفق — هل ده legit ولا fake؟</p>
+            <div class="options">
+              <button class="option" data-correct="false">ممكن أفتحه فورًا</button>
+              <button class="option" data-correct="true">أراجع البريد، أتأكد من الإيميل والروابط</button>
+              <button class="option" data-correct="false">أدخل بياناتي داخل PDF</button>
+            </div>
+            <div class="feedback"></div>
+          </div>
+
+          <div class="quiz-question" data-q="2">
+            <p class="q-text"><strong>2.</strong> رسالة من البنك تطلب كود — تعمل إيه؟</p>
+            <div class="options">
+              <button class="option" data-correct="true">أتصل بالخط الرسمي للبنك وأتحقق</button>
+              <button class="option" data-correct="false">أبعت لهم الكود على الشات</button>
+              <button class="option" data-correct="false">أفتح اللينك وأدخل الكود</button>
+            </div>
+            <div class="feedback"></div>
+          </div>
+
+          <div class="quiz-question" data-q="3">
+            <p class="q-text"><strong>3.</strong> لقيت USB في الشركة — تعمل إيه؟</p>
+            <div class="options">
+              <button class="option" data-correct="false">أوصله فورًا للجهاز لأشوف محتواه</button>
+              <button class="option" data-correct="true">أسلمه لإدارة الـIT أو أعطيه لفني مختص</button>
+              <button class="option" data-correct="false">أشغله على جهاز شخصي بدون antivirus</button>
+            </div>
+            <div class="feedback"></div>
+          </div>
+
+          <div class="quiz-result" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 7 - خطوات حماية -->
+    <section class="slide" data-title="خطوات">
+      <div class="container animate">
+        <h2 class="section-title neon">خطوات حماية أساسية لأي خريج</h2>
+        <ul class="steps-list">
+          <li><i class="fa-solid fa-phone"></i> 2FA</li>
+          <li><i class="fa-solid fa-key"></i> Password Manager</li>
+          <li><i class="fa-solid fa-shield fa-fw"></i> Antivirus</li>
+          <li><i class="fa-solid fa-cloud-arrow-up"></i> Backup شهري</li>
+          <li><i class="fa-solid fa-network-wired"></i> Zero-Trust</li>
+          <li><i class="fa-solid fa-user-lock"></i> استخدام حساب Standard</li>
+          <li><i class="fa-solid fa-mobile-screen-button"></i> حماية الموبايل</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Slide 8 - Closing -->
+    <section class="slide" data-title="خاتمة">
+      <div class="container animate">
+        <h2 class="section-title neon">الخاتمة</h2>
+        <div class="closing-card">
+          <blockquote>«أنت مش مطلوب تبقى خبير… مطلوب تكون مستخدم ذكي.»</blockquote>
+          <p class="small">شارك هالرسالة مع زميل أو صديق — فرق بسيط في سلوكك ينقذ بيانات كتير.</p>
+          <div class="footer-cta">
+            <a class="btn" href="mailto:info@codejourney.example">اطلب ورشة توعية</a>
+            <a class="ghost-link" href="#0">رجوع للأعلى</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- ================= (جديد) قسم عني About ================= -->
+  <section class="slide" id="about" data-title="من أنا؟">
+    <div class="container animate">
+      <h2 class="section-title neon">من أنا؟ 👨‍💻</h2>
+      <div class="about-section">
+        <div class="about-image">
+          <img src="myself.svg" alt="Mostafa Abd El-naeam" />
+        </div>
+        <div class="about-info">
+          <h3>Mostafa Abd El-naeam</h3>
+          <span class="job-title">
+            MEAN Stack Developer | Technical Instructor | Startup Founder
+          </span>
+          <p>
+            مطور ويب متخصص في بناء تطبيقات الـ Front-End باستخدام Angular،
+            مع توسّع تدريجي في الـ Back-End وتقنيات الأتمتة. مؤسس Code Journey،
+            وهي مبادرة تعليمية تقدّم تدريبًا عمليًا في البرمجة وتطوير المهارات الرقمية.
+          </p>
+          <p>
+            أقود فرق تقنية وتعليمية، وأمتلك خبرة في التدريب، التوجيه، وبناء المناهج.
+            شغلي دايمًا مبني على التنظيم، التفكير الاستراتيجي، والنتائج القابلة للقياس.
+            اشتغلت في مبادرات وجمعيات جامعية وتقنية، وقدمت برامج تطوير للطلاب والمجتمعات.
+          </p>
+          <p>
+            أركز حاليًا على تطوير مهارتي كمبرمج، تحسين أنظمة العمل لدي، وبناء مسار مهني
+            قوي في التعليم التقني وبناء المنتجات.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column about-column">
+          <h4><i class="fas fa-rocket"></i> عن Code Journey</h4>
+          <p>
+            مبادرة تعليمية أسسها مصطفى عبد النعيم لتمكين الشباب من دخول عالم
+            البرمجة بخطوات عملية.
+          </p>
+        </div>
+        <div class="footer-column contact-column">
+          <h4><i class="fas fa-envelope"></i> تواصل معي شخصيًا</h4>
+          <ul class="contact-list">
+            <li>
+              <i class="fab fa-whatsapp"></i>
+              <a href="https://wa.me/201114938410" target="_blank">واتساب</a>
+            </li>
+            <li>
+              <i class="fas fa-at"></i>
+              <a href="mailto:mnaeam10@gmail.com">mnaeam10@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-globe"></i>
+              <a href="https://mostafa-naeam.vercel.app/" target="_blank">الموقع الرسمي</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-column follow-column">
+          <h4><i class="fas fa-share-alt"></i> تابعنا</h4>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mostafanaeam/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Mostafanaeam" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/code-journey25/" target="_blank">
+              <i class="fab fa-linkedin-in"></i><span>CJ</span>
+            </a>
+            <a href="https://wa.me/201555303227" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Code Journey | تم التطوير بحب ❤️ بواسطة مصطفى عبد النعيم.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
